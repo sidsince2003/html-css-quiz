@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+
+.main-div{
+    width: 100%;
+    min-width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 300px;
+    background-color: rgb(230, 248, 255);
+}
+
+.inner-div{
+    width: 40vw;
+    background-color: whitesmoke;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+ .inner-div h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top:5px 0 4rem 0; 
+ }
+ .inner-div li{
+    font-size:18px;
+    margin-top: 1rem;
+    list-style: none;
+ } 
+ input:hover{
+    cursor: pointer;
+ }
+ #submit, .btn{
+    padding: 0.5rem 2rem;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    margin:auto;
+    border: none;
+    text-transform: #fff;
+    background-color: rgba(80, 255, 80, 0.425);
+    margin-top: 30px;
+ }
+ #submit:hover{
+     background-color: rgb(68, 212, 68);
+ }
+ #showscore{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+ }
+
+#showscore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+#showscore .btn{
+    margin-top: 2rem;
+    background-color: aquamarine;
+    color: #fff;
+}
+
+.scoreArea {
+    display: none;
+}
